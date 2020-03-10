@@ -1,0 +1,22 @@
+.search-container{
+    width: 96%;
+    height: 70px;
+    padding: 0 7px;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container button{
+    height: 25px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.search-container input{
+    height: 25px;
+    width: 175px;
+    margin-right: 10px;
+}
+

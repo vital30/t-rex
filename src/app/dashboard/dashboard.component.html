@@ -1,0 +1,62 @@
+<div class="dashboard-container">
+    <h4>Dashboard</h4>
+
+    <div class="dashboardlist">
+        <div *ngFor ="let item of dashlist"><label>{{item.itemName}}</label> <span  [ngClass]="{'marked': item.marker === true}">{{item.result}}</span></div>
+    </div>
+</div>
+
+<div class="location-container">
+    <h4>Location</h4>
+
+    <div class="form">
+
+        <div>
+            <div class=" large">
+                <label>Address 1</label>
+                <input type="text" #address1  class="address1 large form-control"/>
+            
+            </div>
+            <div class=" large">
+                <label>Address 2</label>
+                <input type="text" #address2  class="address2 large form-control"/>
+            
+            </div>
+        </div>
+        <div>
+        <div class="small">
+            <label>City</label>
+            <input type="text" #city  class="city small form-control"/>
+        </div>
+
+        <div class="small">
+            <label>State</label>
+            <input type="text" #state  class="state small form-control"/>
+        </div>
+        <div class="small">
+            <label>Zip Code</label>
+            <input type="number" #zip  class="zip small form-control"/>
+        </div>
+        <div class="country small">
+            <label>Country</label>
+            <select class="small">
+                <option>United States</option>
+                <option>type 2</option>
+                <option>type 3</option>
+                <option>type 4</option>
+              </select>
+        </div>
+    </div>
+
+    <div>
+        <div class="large">
+            <label>Latitude Coordinate</label>
+            <input type="number" #lat  class="lat form-control"/>
+        </div>
+        <div class="large">
+            <label>longtitude Coordinate</label>
+            <input type="number" #long  class="long form-control"/>
+        </div>
+    </div>
+    </div>
+</div>

@@ -1,0 +1,81 @@
+.dashboard-container{
+    float: left;
+}
+
+.dashboard-container .dashboardlist > div label{
+    background-color: #d0d0d0; 
+    width: 212px;;
+    display: inline-block;
+    height: 20px;
+    padding: 6px 0 4px 15px;
+
+}
+
+.dashboard-container .dashboardlist > div span{
+   border-bottom: 1px solid #b3b3b3;
+   border-right: 1px solid #b3b3b3;
+   width: 100px;
+   display: inline-block;
+   padding: 6px 0 4px 15px;
+
+}
+
+.dashboard-container .dashboardlist > div:first-child span{
+    border-top: 1px solid #b3b3b3;
+    padding: 5px 0 4px 15px;
+ }
+
+.marked{
+    color: blue;
+}
+
+.location-container{
+    width: 440px;
+    display: flex;
+    margin-left: 20px;
+    padding-left: 20px;
+    flex-direction: column;
+}
+
+.location-container .form{
+    border-right: 1px solid #b3b3b3;
+    border-left: 1px solid #b3b3b3;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.location-container .form > div{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 15px;
+}
+
+.location-container label{
+    display:block;   
+}
+
+
+.location-container .large{
+    width: 170px;   
+    display: inline-block;
+    margin: 5px;
+
+}
+
+.location-container .small{
+    width: 70px;   
+    display: inline-block;
+    margin: 5px;
+
+}
+
+.location-container .country .small{
+    width: 108px;   
+    display: inline-block;
+}
+
+.location-container input{
+    display: inline-block;
+}

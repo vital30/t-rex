@@ -1,0 +1,62 @@
+.header-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo-container{
+    text-transform: uppercase;
+    width: 350px;
+}
+
+.logo-container h1 {
+    display: inline-block;
+    margin-right: 10px;
+    word-spacing: 30px;
+}
+
+.logo-container span{
+    font-size: 10px;
+}
+
+.shared-container h1{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+
+.shared-container span{
+    text-transform: uppercase;
+    background-color: green;
+    border-radius: 16px;
+    font-size: 15px;
+    padding: 1px 10px;
+    color: #ffffff;
+    margin-left: 15px;
+    vertical-align: super;
+}
+
+.shared-container p{
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+.settings-conteiner{
+    display: flex;
+    align-items: center;
+    
+}
+
+.settings-conteiner button{
+    background-color: #418dff;
+    border-right: 1px solid #b3b3b3;
+    border-left: 1px solid #b3b3b3;
+
+    margin: 10px;
+    color: #ffffff;
+    padding: 1px 20px;
+    height: 22px;
+}

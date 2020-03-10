@@ -1,0 +1,29 @@
+
+<mat-tab-group>
+    <mat-tab label="ASSETS">
+        <div class="assets-container">
+            <div class="left-menu-container">
+                <app-left-menu></app-left-menu>
+            </div>
+            <div class="data-container">
+                <h1>NEW YORK UNIVERSITY</h1>
+                <div class="conteiner">
+                <div class="content">
+                    <app-dashboard></app-dashboard>
+                </div>
+                <app-historical-data></app-historical-data>
+            </div>
+            </div>
+        </div>
+    </mat-tab>
+    <mat-tab label="SCENARIO">
+        <app-historical-data></app-historical-data>
+
+    </mat-tab>
+    <mat-tab label="REPORTS">
+        <h1>REPORTS</h1>
+      </mat-tab>
+      <mat-tab label="BONDS">
+        <h1>BONDS</h1>
+      </mat-tab>
+  </mat-tab-group>
